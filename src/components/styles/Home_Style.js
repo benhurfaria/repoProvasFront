@@ -21,7 +21,7 @@ const Button = styled.button`
   height: ${(props) => props.height};
   border: none;
   border-radius: 10px;
-  background-color: #8c97ea;
+  background-color: ${(props) => props.color};
   color: #ffffff;
   font-weight: bold;
   margin-top: ${(props) => props.margin};
