@@ -6,6 +6,7 @@ import Send from './components/pages/Send';
 import Teacher from './components/pages/Teacher';
 import Curso from './components/pages/Curso';
 import Nome from './components/pages/Nome';
+import Provas from './components/pages/Provas';
 import { ProfessorContext } from './components/Context/ProfessorContext';
 import { CursoContext } from './components/Context/CursoContext';
 
@@ -23,6 +24,7 @@ export default function App() {
             <Route exact path="/teacher" element={<Teacher/>}/>
             <Route exact path="/materia" element={<Curso/>}/>
             <Route exact path="/nome" element={<Nome/>}/>
+            <Route exact path="/provas" element={<Provas/>}/>
           </Routes>
         </BrowserRouter>
       </CursoContext.Provider>

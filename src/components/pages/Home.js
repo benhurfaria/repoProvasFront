@@ -14,9 +14,11 @@ export default function Home(){
                     Enviar prova
                 </Button>
             </Link>
-            <Button width="202px" height="45px" size="18px" margin="50px" color="#8c97ea">
-              Visualizar provas
-            </Button>
+            <Link to="/provas">
+                <Button width="202px" height="45px" size="18px" margin="50px" color="#8c97ea">
+                    Visualizar provas
+                </Button>
+            </Link>
         </Main>
     )
 }

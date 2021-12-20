@@ -22,6 +22,21 @@ const Input = styled.input`
   }
 `;
 
+const Href = styled.a`
+  width: ${(props) => props.width};
+  height: ${(props) => props.height};
+  border: none;
+  border-radius: 10px;
+  background-color: ${(props) => props.color};
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: ${(props) => props.margin};
+  font-size: ${(props) => props.size};
+  :focus {
+    outline: transparent;
+  }
+`;
 export {
     Input,
+    Href
 }
