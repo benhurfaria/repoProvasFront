@@ -28,6 +28,7 @@ export default function Curso(){
         }
     }
     useEffect(()=>{
+        console.log(professor);
         if(professor.length === 0){
             const promise = axios.get(api+'disciplina');
             promise.then((resp)=>{
