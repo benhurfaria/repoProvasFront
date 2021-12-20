@@ -26,7 +26,7 @@ export default function App() {
             <Route exact path="/nome" element={<Nome/>}/>
             <Route exact path="/provas" element={<Provas/>}/>
           </Routes>
-        </BrowserRouter>
+        </BrowserRouter> 
       </CursoContext.Provider>
     </ProfessorContext.Provider>
   );
